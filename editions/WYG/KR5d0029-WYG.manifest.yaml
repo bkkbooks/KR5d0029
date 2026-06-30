@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR5d0029/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR5d0029/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 席上腐談
+  date: '2015-08-24 23:44:34.568092'
+  source:
+    repository: kanripo
+    path: KR5d0029
+  edition:
+    short: WYG
+    label: 【四部全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0029_000-WYG.yaml, hash: 'sha256:9a2d4216e15bd6890253ba8385d8dbfe091296c6dd10e3d1564031e6a433d1b9'}
+  - {seq: 1, filename: KR5d0029_001-WYG.yaml, hash: 'sha256:d157aa127efb82cb786571ce78d7f4faba6059317092082a3af2e4f48c198a6a'}
+  - {seq: 2, filename: KR5d0029_002-WYG.yaml, hash: 'sha256:4601082c25dedac2bd4c727ab01ab564055d02e2b1346944014161eef7bd6591'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0029_000-WYG.markers.yaml, hash: 'sha256:55806f9452a977fc8d5067080e3741f9ba97d5fe891eaef0a18c159f371b48fa'}
+  - {seq: 1, role: markers, filename: assets/KR5d0029_001-WYG.markers.yaml, hash: 'sha256:210da80e6b82c566db6aa5b99935c2e928efac176007ad0b399eeb824a504926'}
+  - {seq: 2, role: markers, filename: assets/KR5d0029_002-WYG.markers.yaml, hash: 'sha256:af8a0f2126676a5c00be5137537fbafdb5299a70e0aa15f4a5386bd4e95c90cc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0029_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 390
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5d0029_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 7596
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5d0029_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 9310
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:1aba9f3327294b81f4bfd7a5bde70d776a5bbd7f509fbeca32ede3a4bf27958d

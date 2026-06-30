@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR5d0029/v1
+canonical_location: https://kanripo.org/bkk/KR5d0029/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 席上腐談
+  date: '2015-08-24 23:44:34.568092'
+  source:
+    repository: kanripo
+    path: KR5d0029
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四部全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0029_000.yaml, hash: 'sha256:3458b14fc82cef24d5b94b14caad99a21f646bf6a60e58ac285a8953d9113503'}
+  - {seq: 1, filename: KR5d0029_001.yaml, hash: 'sha256:821e06d5687f9c60e48753cd97623f0a584ce149c87595fdee86634bebcb58bb'}
+  - {seq: 2, filename: KR5d0029_002.yaml, hash: 'sha256:536a173f5504a302c790aa9f96c68fae84ec9f7bdec75830ff4d54e7de6e3340'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0029_000.markers.yaml, hash: 'sha256:4209016a108dfce34642395488f171626a5da9a6a8ffdbf2633c49ef9513ed64'}
+  - {seq: 1, role: markers, filename: assets/KR5d0029_001.markers.yaml, hash: 'sha256:3971e6b4efc6f389091aa2c0781ce398740701301c75968f139a839734d5afa1'}
+  - {seq: 2, role: markers, filename: assets/KR5d0029_002.markers.yaml, hash: 'sha256:f5855c0e5160b473d6d1a2ff46a057cc887ec03361a488a934a37882763324e3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0029_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 390
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5d0029_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 7596
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5d0029_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 9310
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:661b6075cfb4117f9b53ca28be947a86d003b8815b811fd4d193089367c4deaa
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
